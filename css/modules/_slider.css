@@ -1,0 +1,30 @@
+.slider-container {
+  overflow: hidden; /*Don't modify*/
+  background: var(--light-green);
+  margin: auto;
+  padding: 20px 0 10px;
+}
+
+.slide {
+  text-transform: uppercase;
+  color: var(--light);
+  font-size: 29px;
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
+  letter-spacing: 2.9px;
+}
+
+.slider-row {
+  animation: ticker 20s linear infinite; /*Don't modify*/
+  white-space: nowrap; /*Don't modify*/
+}
+
+/* Animation - Don't modify */
+@keyframes ticker {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

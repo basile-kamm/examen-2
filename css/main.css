@@ -1,3 +1,6 @@
 @import "_base.css";
+
 @import "modules/_burger.css";
 @import "modules/_button.css";
+@import "modules/_slider.css";
+@import "modules/_header.css";
