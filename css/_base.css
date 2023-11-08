@@ -21,6 +21,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,23 +42,6 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
-}
-
-/* Bootstrap */
-.container {
-  margin-bottom: 30px;
-}
-
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
 /* ====================================
@@ -91,10 +75,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 
-.nav-links a {
+.nav-links a.nav-link {
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
@@ -103,7 +88,7 @@ header {
   border-bottom: 2px rgba(20, 20, 20, 0) solid;
 }
 
-.nav-links a:hover {
+.nav-links a.nav-link:hover {
   border-bottom: 2px var(--dark) solid;
 }
 
