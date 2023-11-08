@@ -1,0 +1,128 @@
+/* ====================================
+// css variables + import
+// ==================================== */
+
+:root {
+  --light-green: #51dc78;
+  --dark-blue: #213c4c;
+  --light-blue: #8b97f1;
+  --dark: rgba(20, 20, 20, 1);
+  --light: #f0ffee;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* Bootstrap */
+.container {
+  margin-bottom: 30px;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+/* ====================================
+// Base Rules
+// ==================================== */
+header {
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
+}
+
+/* ====================================
+// Nav Bar
+// ==================================== */
+
+.navbar {
+  background: var(--light-green);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-logo {
+  width: 120px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--dark);
+  transition: 0.3s ease-in-out;
+  border-bottom: 2px rgba(20, 20, 20, 0) solid;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px var(--dark) solid;
+}
+
+@media (max-width: 991px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .navbar {
+    padding: 20px 30px 10px;
+  }
+
+  .navbar-logo {
+    width: 150px;
+  }
+}
