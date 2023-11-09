@@ -14,7 +14,7 @@
   font-variation-settings: "wdth" 100, "slnt" 0;
   letter-spacing: 2.9px;
   display: inline-block;
-  animation: 10s slider infinite linear;
+  animation: 15s slider infinite linear;
 }
 
 .slider-row {
@@ -30,5 +30,3 @@
     transform: translateX(-100%);
   }
 }
-
-/* <span>avec jardin exterieur - </span>
