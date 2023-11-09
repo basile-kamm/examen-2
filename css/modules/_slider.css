@@ -1,32 +1,64 @@
 .slider-container {
   overflow: hidden; /*Don't modify*/
-  background: var(--light-green);
   margin: auto;
-  padding: 20px 0 10px;
   user-select: none;
 }
 
 .slide {
   text-transform: uppercase;
-  color: var(--light);
-  font-size: 29px;
   font-family: "nickel-gothic-variable", sans-serif;
   font-variation-settings: "wdth" 100, "slnt" 0;
   letter-spacing: 2.9px;
   display: inline-block;
-  animation: 15s slider infinite linear;
+}
+
+.slide.right {
+  animation: 15s slider-right infinite linear;
+}
+
+.slide.left {
+  animation: 15s slider-left infinite linear;
 }
 
 .slider-row {
   white-space: nowrap; /*Don't modify*/
 }
 
+/* Specifics */
+.slider-infos .slider-container {
+  background: var(--light-green);
+  padding: 20px 0 10px;
+}
+
+.slider-infos .slide {
+  color: var(--light);
+  font-size: 29px;
+}
+
+.slider-event .slider-container {
+  padding: 20px 0;
+}
+
+.slider-event .slide {
+  color: var(--light-green);
+  font-size: 80px;
+}
+
 /* Animation - Don't modify */
-@keyframes slider {
+@keyframes slider-right {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes slider-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
