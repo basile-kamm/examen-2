@@ -10,3 +10,5 @@ function show() {
   document.querySelector(".burger-menu").classList.toggle("active");
   background.classList.toggle("active");
 }
+
+// Slider
