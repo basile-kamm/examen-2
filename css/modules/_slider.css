@@ -24,6 +24,14 @@
   white-space: nowrap; /*Don't modify*/
 }
 
+.slider-big {
+  font-size: 80px;
+}
+
+.slider-big .slider-container {
+  padding: 20px 0;
+}
+
 /* Specifics */
 .slider-infos .slider-container {
   background: var(--light-green);
@@ -35,13 +43,12 @@
   font-size: 29px;
 }
 
-.slider-event .slider-container {
-  padding: 20px 0;
-}
-
 .slider-event .slide {
   color: var(--light-green);
-  font-size: 80px;
+}
+
+.slider-menu .slide {
+  color: var(--dark);
 }
 
 /* Animation - Don't modify */

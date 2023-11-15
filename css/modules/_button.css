@@ -13,6 +13,8 @@ a.button {
   font-size: 18px;
   font-family: "nickel-gothic-variable", sans-serif;
   font-variation-settings: "wdth" 100, "slnt" 0;
+  display: inline-block;
+  text-align: center;
 }
 
 a.button.big {

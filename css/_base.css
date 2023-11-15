@@ -22,6 +22,8 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  background: var(--dark);
+  color: var(--light);
 }
 
 body {
@@ -43,6 +45,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  -webkit-user-drag: none;
 }
 
 /* ====================================
