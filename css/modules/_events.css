@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.events {
+  padding: 10px 0 70px;
+}
+
 .events .button {
   margin-left: 50vw;
   transform: translateX(-50%);

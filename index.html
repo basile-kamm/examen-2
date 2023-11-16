@@ -56,7 +56,7 @@
                   src="img/etchebest.png"
                   alt="Photo de Phillipe Etchebest"
                 />
-                <a class="button big">Événements</a>
+                <a href="#event" class="button big">Événements</a>
               </a>
             </div>
           </div>
@@ -64,7 +64,7 @@
             <div class="header-card">
               <a href="">
                 <img src="img/spoutDrink.jpg" alt="Boisson" />
-                <a class="button big">Menu</a>
+                <a href="#menu" class="button big">Menu</a>
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@
         </div>
       </div>
     </div>
-    <div class="events">
+    <div class="events" id="event">
       <div class="slider-event slider-big">
         <div class="slider-container">
           <div class="slider-row">
@@ -178,9 +178,9 @@
           </div>
         </div>
       </div>
-      <a class="button big">Tous les événements</a>
+      <a class="button">Tous les événements</a>
     </div>
-    <div class="menu">
+    <div class="menu" id="menu">
       <div class="slider-menu slider-big">
         <div class="slider-container">
           <div class="slider-row">
@@ -222,7 +222,10 @@
           <div class="col-lg-4">
             <div class="receipe receipe-falafel">
               <img src="img/boulette.jpg" alt="" />
-              <h3>Météorites de falafel</h3>
+              <h3>
+                Météorites <br />
+                de falafel
+              </h3>
             </div>
           </div>
           <div class="col-12 col-md-6">
@@ -234,21 +237,69 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">Logo</div>
-        <div class="col-12 col-lg-3">
-          Nav
-          <div class="row">
-            <div class="col-6 col-lg-12">Col 1</div>
-            <div class="col-6 col-lg-12">Col 2</div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="img/logo-blue.png" alt="" class="footer-logo" />
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="footer-infos">
+              <h4>Navigation</h4>
+              <div class="row">
+                <div class="col-6 col-lg-12">
+                  <ul>
+                    <li><a href="">Réserver</a></li>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Événements</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-12">
+                  <ul>
+                    <li><a href="">Infos</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="loca footer-infos">
+              <h4>Localisation</h4>
+              <p>
+                Chemin Spacio-Cosmique 3,<br />
+                Lune
+              </p>
+            </div>
+            <div class="horaires footer-infos">
+              <h4>Horaires</h4>
+              <p>Ouvert de 00:00 à 24:00 <br />tous les jours</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="footer-infos">
+              <h4>Contact</h4>
+              <p>
+                <a href="mailto:contact@lunabar.space">contact@lunabar.space</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="socials-logo">
+              <a href=""> <img src="img/insta.png" alt="" class="logo" /> </a>
+              <a href="">
+                <img src="img/facebook.png" alt="" class="logo" />
+              </a>
+              <a href=""> <img src="img/twitter.png" alt="" class="logo" /> </a>
+            </div>
+          </div>
+          <div class="col-12">
+            <p class="source">© LunaBar 2023. All Rights Reserved.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-5">Loca / horaires</div>
-        <div class="col-12 col-lg-3">Contact</div>
-        <div class="col-12">source</div>
       </div>
-    </div>
+    </footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>

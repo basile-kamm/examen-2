@@ -14,7 +14,7 @@
   font-family: "nickel-gothic-variable", sans-serif;
   font-variation-settings: "wdth" 100, "slnt" 0;
   letter-spacing: 1.9px;
-  width: 20vw;
+  max-width: 30vw;
   text-align: center;
   border-radius: 10px;
   transform: translateY(-50%);

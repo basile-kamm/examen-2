@@ -5,7 +5,7 @@
 :root {
   --light-green: #51dc78;
   --dark-blue: #213c4c;
-  --light-blue: #8b97f1;
+  --light-blue: rgba(139, 151, 241, 1);
   --dark: rgba(20, 20, 20, 1);
   --light: #f0ffee;
 }

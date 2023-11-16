@@ -15,6 +15,7 @@ a.button {
   font-variation-settings: "wdth" 100, "slnt" 0;
   display: inline-block;
   text-align: center;
+  white-space: nowrap;
 }
 
 a.button.big {
