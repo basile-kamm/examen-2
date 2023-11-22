@@ -59,6 +59,17 @@ header {
 .header-card img {
   border-radius: 35px;
   border: 3px var(--light) solid;
+  transition: 0.3s ease-in-out;
+}
+
+.header-card:hover a.button {
+  color: var(--light-blue);
+  background: var(--light);
+  border: 3px var(--light-blue) solid;
+}
+
+.header-card:hover img {
+  border: 3px var(--light-blue) solid;
 }
 
 .header-card .button {
