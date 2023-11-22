@@ -21,6 +21,10 @@
   transform: translateX(-50%);
 }
 
+.events img {
+  border-radius: 5px;
+}
+
 .event-left {
   width: unset;
 }
@@ -67,12 +71,12 @@
   }
 
   .event-title {
-    font-size: 29px;
-    margin-bottom: 55px;
+    font-size: 22px;
+    margin-bottom: 35px;
   }
 
   .event-subtitle {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .events .button {
@@ -88,5 +92,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .event-title {
+    font-size: 29px;
+    margin-bottom: 55px;
+  }
+
+  .event-subtitle {
+    font-size: 24px;
   }
 }

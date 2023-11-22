@@ -47,6 +47,10 @@ header {
   margin-top: 120px;
 }
 
+.header-card .button {
+  transform: translateY(-48%);
+}
+
 .header-card {
   margin-top: 40px;
   padding: 20px;
@@ -57,9 +61,14 @@ header {
 }
 
 .header-card img {
+  transition: 0.3s ease-in-out;
+}
+
+.header-card .img-container {
   border-radius: 35px;
   border: 3px var(--light) solid;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
 }
 
 .header-card:hover a.button {
@@ -68,12 +77,14 @@ header {
   border: 3px var(--light-blue) solid;
 }
 
-.header-card:hover img {
+.header-card:hover .img-container {
   border: 3px var(--light-blue) solid;
+  background: var(--light);
 }
 
-.header-card .button {
-  transform: translateY(-48%);
+.header-card:hover img {
+  scale: 1.05;
+  opacity: 0.95;
 }
 
 @media (max-width: 991px) {
