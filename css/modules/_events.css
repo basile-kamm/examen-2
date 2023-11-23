@@ -14,6 +14,7 @@
 
 .events {
   padding: 10px 0 70px;
+  overflow: hidden;
 }
 
 /* .events .button {

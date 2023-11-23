@@ -51,3 +51,8 @@ video {
 /* ====================================
 // Base Rules
 // ==================================== */
+
+.center {
+  display: flex;
+  justify-content: center;
+}

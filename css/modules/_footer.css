@@ -9,6 +9,12 @@ footer {
   position: relative;
 }
 
+@media (max-width: 550px) {
+  footer {
+    font-size: 20px;
+  }
+}
+
 footer h4 {
   font-size: 11px;
   text-transform: uppercase;
