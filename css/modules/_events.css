@@ -16,10 +16,10 @@
   padding: 10px 0 70px;
 }
 
-.events .button {
+/* .events .button {
   margin-left: 50vw;
   transform: translateX(-50%);
-}
+} */
 
 .events img {
   border-radius: 5px;
@@ -55,7 +55,7 @@
 
 @media (min-width: 768px) {
   .events {
-    background-image: url(../../img/background.jpg);
+    background-image: url(../../img/background.webp);
   }
 
   .event-container {
