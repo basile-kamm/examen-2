@@ -5,14 +5,14 @@ button {
 
 .burger-menu-nav {
   position: absolute;
-  top: 100px;
+  top: 7vh;
   right: 50px;
   width: 250px;
   text-align: right;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
+  height: 80vh;
 }
 
 .burger-menu {
@@ -20,16 +20,22 @@ button {
   right: -350px;
   top: 0;
   width: 300px;
-  height: 100%;
+  height: 120%;
   background: var(--dark-blue);
   transition: 0.5s ease;
   z-index: 4;
+  overflow: hidden;
+}
+
+.burger-menu-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
 }
 
 .burger-menu-nav ul li {
   list-style-type: none;
   font-size: 40px;
-  padding: 20px 0;
 }
 
 .burger-menu-nav ul li a {
@@ -99,7 +105,7 @@ button {
 /* background */
 .burger-background {
   width: 100%;
-  height: 100%;
+  height: 120%;
   top: 0;
   position: fixed;
   visibility: hidden;

@@ -17,11 +17,6 @@
   overflow: hidden;
 }
 
-/* .events .button {
-  margin-left: 50vw;
-  transform: translateX(-50%);
-} */
-
 .events img {
   border-radius: 5px;
 }
@@ -45,12 +40,15 @@
   }
 
   .event-container {
-    margin: -50px -20vw 50px 0;
+    margin: -50px 0 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   #event-left .event-container {
-    margin: -50px 0 50px -10vw;
-    padding-left: 15vw;
+    margin: -50px 0 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
 
